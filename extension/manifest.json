@@ -1,0 +1,20 @@
+{
+	"name": "Paint.in",
+	"version": "0.1",
+	"manifest_version": 2,
+
+	"description": "Improve the looks of your least favourite Indian government website",
+	"icons": {
+
+	},
+	"background": {
+		"persistent": false,
+		"scripts": [
+			"eventPage.js"
+		]
+	},
+	"permissions": [
+		"tabs",
+		"webNavigation"
+	]
+}
